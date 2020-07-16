@@ -19,10 +19,10 @@ class GenreBuilder() {
             value = Genres()
         ),
         children = listOf(
-            Text("Currency Table in USD"),
+            Text("Genre Table"),
             Button(
                 styleId = "TestButton",
-                text = "Click to get the currency Table",
+                text = "Click get Genres Table",
                 onPress = listOf(
                     SendRequest(
                         url = "https://api.themoviedb.org/3/genre/movie/list?api_key=385801b00919de93e960028b6ca5e4cd&language=en-US",
