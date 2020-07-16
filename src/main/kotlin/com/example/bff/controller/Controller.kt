@@ -13,4 +13,13 @@ class ScreenController(
 
   @GetMapping("/tabview")
   fun getTabView() = screenBeagleService.createTabView()
+
+  @GetMapping("/serverDrivenComponent")
+  fun getServerDrivenComponent() = screenBeagleService.createServerDrivenComponent()
+
+  @GetMapping("/cpf_test")
+  fun getCpfTestComponent() = screenBeagleService.createCpfTest()
+
+  @GetMapping("/genreScreen")
+  fun getGenreScreenComponent() = screenBeagleService.createGenreScreen()
 }
